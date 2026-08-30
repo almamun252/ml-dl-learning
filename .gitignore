@@ -216,3 +216,33 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ==============================
+# ML / DL Learning
+# ==============================
+
+# Secrets / local environment files
+.env.*
+!.env.example
+
+# Trained models / checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Training logs and experiment outputs
+runs/
+outputs/
+checkpoints/
+
+# TensorBoard / experiment tracking
+lightning_logs/
+wandb/
+
+# Large/local datasets (if added later)
+datasets/raw/
+datasets/temp/
+
+# OS files
+.DS_Store
+Thumbs.db
